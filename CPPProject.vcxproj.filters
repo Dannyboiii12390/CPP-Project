@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lists">
+      <UniqueIdentifier>{745fd686-7fe8-451c-bb1b-4827d4eb5721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maths">
+      <UniqueIdentifier>{b3762c03-7e7c-4566-b574-8c215a94203f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files">
+      <UniqueIdentifier>{f670c35a-0043-48b6-8cb4-6a65080151e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPPProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lists.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrices.h">
+      <Filter>Header Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Header Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
